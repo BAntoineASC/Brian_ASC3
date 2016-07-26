@@ -1,7 +1,7 @@
 from random import *
 x = 0
 y = 1
-boddies = [1,1,1,1,1]
+
 bullet = False
 bulletPush = 10
 spaceMover = 350 #moves spaceship

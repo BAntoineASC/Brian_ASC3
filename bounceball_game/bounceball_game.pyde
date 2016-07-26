@@ -1,6 +1,6 @@
 from random import *
 xCoordinateOfBall = 100 
-yCoordinateOfBall = 300
+yCoordinateOfBall = 100
 xspeed = 3
 yspeed = 4
 def setup():
@@ -23,6 +23,7 @@ def draw():
    rect(mouseX,380,40,10)
    if xCoordinateOfBall > mouseX - 190 and xCoordinateOfBall < mouseX +190 and yCoordinateOfBall> 350 and yCoordinateOfBall<360:
        yspeed *= -1
+
 
 
    #constant 

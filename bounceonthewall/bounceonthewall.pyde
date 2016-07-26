@@ -9,7 +9,6 @@ def setup():
 def draw():
    global xCoordinateOfBall,yCoordinateOfBall, xspeed,yspeed 
    global randrange
-   fill(randrange(255))
    ellipse(xCoordinateOfBall,yCoordinateOfBall,40,40)
    xCoordinateOfBall += xspeed
    yCoordinateOfBall += yspeed
